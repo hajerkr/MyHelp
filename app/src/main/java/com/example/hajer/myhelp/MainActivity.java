@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         foodpic = (ImageButton) findViewById(R.id.food);
-        foodpic.setOnClickListener(new w View.OnClickListener() {
-            public void onClick(View v) {
+        foodpic.setOnClickListener(new View.OnClickListener() {
+           // public void onClick(View v) {
 
                 //do stuff
             }

@@ -15,17 +15,10 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/food"
-        android:src="@drawable/food"
-        android:contentDescription="@string/food.png" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/drink"
-        android:layout_below="@+id/food"
-        android:src="@drawable/drink"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="62dp" />
+        android:src="@drawable/food"
+        android:layout_marginTop="34dp" />
 </RelativeLayout>
