@@ -16,9 +16,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
+        android:src="@drawable/food"
+        android:scaleType="fitCenter"
+        android:maxWidth="72dp"
+        android:maxHeight="72dp"
+        android:adjustViewBounds="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/food"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="35dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonDrink"
+        android:src="@drawable/drink"
+        
+        android:maxWidth="72dp"
+        android:maxHeight="72dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="35dp" />
 </RelativeLayout>
