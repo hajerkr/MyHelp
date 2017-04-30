@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
+        android:onClick="buttonOnClick"
         android:src="@drawable/food"
         android:scaleType="fitCenter"
         android:maxWidth="72dp"
@@ -33,11 +34,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButtonDrink"
         android:src="@drawable/drink"
-
+        android:onClick="buttonOnClick"
         android:maxWidth="72dp"
         android:maxHeight="72dp"
         android:adjustViewBounds="true"
-
         android:layout_alignTop="@+id/imageButton"
         android:layout_alignLeft="@+id/imageButton7"
         android:layout_alignStart="@+id/imageButton7" />
